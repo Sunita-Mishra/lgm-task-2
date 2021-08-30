@@ -21,11 +21,11 @@ function card({User,extra}) {
                    
                     
                         <div className="info">
-                            <div>< HiMail />{User.email}</div>
-                           <div>< AiFillPhone/>{extra.phone}</div>
-                           <div><GiWorld  />{extra.page}</div>
+                            <div>< HiMail /> {User.email}</div>
+                           <div>< AiFillPhone/> {extra.phone}</div>
+                           <div><GiWorld  /> {extra.page}</div>
                         
-                           <div>< HiLocationMarker/>{extra.location}</div>
+                           <div>< HiLocationMarker/> {extra.location}</div>
                         
                         
 

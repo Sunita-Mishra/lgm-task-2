@@ -98,11 +98,17 @@
     box-shadow: 0 10px 40px rgba(0,0,0,0.2);
     background: linear-gradient(45deg,#b95ce4,#4f29cd);
 }
+.card1:hover h2{
+    color: white!important;
+}
+.card1:hover .info{
+    color: white!important;
+}
 
 
 h1{
     position: absolute;
-    left: 45%;
+    left: 44%;
     border-bottom: 6px solid #74ABDD;
     
    
@@ -135,9 +141,11 @@ h1{
 .links{
     display: flex;
     justify-content: space-around!important;
-    margin-top: 3vh;
+    margin-top: 5vh;
     margin-bottom: 2vh;
     cursor: pointer;
+    padding-left: 10%;
+    padding-right: 10%;
    
 }
 .loaderContainer
@@ -152,6 +160,10 @@ h1{
         font-size: 3.5vw;
         
         
+    }
+    .img{
+        height: 30vh;
+        width: 25vw;
     }
     .cards{
         width: 100vw;
@@ -177,9 +189,12 @@ h1{
     }
     h1{
         margin-top: 50px;
-        left: 38%;
+        left: 38%!important;
        
     }
+    .card1{
+        background:linear-gradient(#74ABDD 17vh,#ffffff 0.2vh);
+        }
 }
 @media (max-width:321px) {
     .details p{
@@ -188,7 +203,15 @@ h1{
         
         
     }
+    .img{
+        height: 30vh;
+        width: 30vw;
+    }
+    .card1{
+    background:linear-gradient(#74ABDD 17vh,#ffffff 0.2vh);
+    }
     .cards{
+
         
         height: auto;
         display: flex;
